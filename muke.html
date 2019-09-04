@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>慕课网</title>
+    <link rel="stylesheet" href="sample1.css">
+    <script src="myfocus-2.0.4.min.js " type="text/javascript"></script>
+    <script src="js.js" type="text/javascript"></script>
+    <!--<script type="text/javascript" src="mf-pattern/mF_fancy.js"></script>-->
+    <!--<link rel="stylesheet" href="mf-pattern/mF_fancy.css">-->
+    <script type="text/javascript">
+        myFocus.set({id: 'boxID',pattern:'mF_fancy',time:3,//切换时间间隔(秒)
+            trigger:'click',//触发切换模式:'click'(点击)/'mouseover'(悬停)
+            width:1001,//设置图片区域宽度(像素)
+            height:310,//设置图片区域高度(像素)
+            txtHeight:'default'});
+    </script>
+</head>
+<body>
+    <a id="mao"></a>
+    <div class="headTitle clearfix">
+        <ul>
+            <li><a href="#">返回首页</a></li>
+            <li><a href="#">加入收藏</a></li>
+            <li><a href="#">联系我们</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div class="wraper">
+        <header>
+            <div class="headContent clearfix">
+                <div class="siteLogo"><img src="images/logo.jpg" alt="网站logo"></div>
+                <div class="telNumber"><p>24小时服务热线：<b>123-456-7890</b></p></div>
+            </div>
+        </header>
+        <nav class="navFirstpage clearfix">
+            <ul class="firstUl clearfix">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">关于慕课</a></li>
+                <li><a href="#">新闻动态</a></li>
+                <li><a href="#">课程中心</a></li>
+                <li><a href="#">在线课程</a></li>
+                <li><a href="#">人才招聘</a></li>
+            </ul>
+            <form action="#" method="post">
+                <input type="text" name="search" id="search" placeholder="在此处搜索">
+            </form>
+        </nav>
+        <div class="adv" id="boxID">
+            <div class="loading"><img src="images/loading.gif" alt="请稍候..." /></div>
+            <div class="pic">
+                <ul>
+                    <li><a href="#"><img src="images/ad2.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/ad3.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/ad4.jpg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content clearfix">
+            <div class="newsWrape">
+                <div class="news clearfix">
+                    <h4><a href="#">新闻中心</a></h4>
+                    <h5><a href="#">More>></a></h5>
+                </div>
+                <div class="newsContent clearfix">
+                    <img src="images/news.jpg" alt="#">
+                    <b>520 幕女神喊你来表白！</b>
+                    <p>活动时间：5月20日-5月25日</p>
+                    <p>获奖公布时间：5月26日</p>
+                    <a href="#">Learn More>></a>
+                </div>
+                <ul  class="clearfix">
+                    <li><a href="#">【慕课访谈】有为屌丝在路上</a><i>2019-07-11</i></li>
+                    <li><a href="#">【有奖活动】给父亲的三行书信</a><i>2019-07-11</i></li>
+                    <li><a href="#">《程序猿，请晒出你的童年》活动获奖公告</a><i>2019-07-11</i></li>
+                    <li><a href="#">【慕课访谈】破茧成蝶——美女程序员的蜕变</a><i>2019-07-11</i></li>
+                    <li><a href="#">【慕课访谈】有为屌丝在路上</a><i>2019-07-11</i></li>
+                </ul>
+            </div>
+            <div class="classCenter">
+                <div class="classCenter-head clearfix">
+                    <h4><a href="#">课程中心</a></h4>
+                    <h5><a href="#">More>></a></h5>
+                </div>
+                <div class="classCenter-pic">
+                    <a href="#"><img src="images/css.jpg" alt="css进化论"></a>
+                    <b>CSS 圆角进化论</b>
+                    <p>css圆角的实现，经历了三大发展阶段：背景图片方式、css2.0+html标签模拟、css3圆角属性。本案例详细讲解每一种实现方式，并对实现的优缺点进行对比分析。</p>
+                </div>
+                <ul class="clearfix">
+                    <li><a href="#">PHP开发</a></li>
+                    <li><a href="#">前端开发</a></li>
+                    <li><a href="#">Java开发</a></li>
+                    <li><a href="#">Android开发</a></li>
+                </ul>
+            </div>
+            <div class="media">
+                <div class="media-head clearfix">
+                    <h4><a href="#">媒体聚焦</a></h4>
+                    <h5><a href="#">More>></a></h5>
+                </div>
+                <div class="media-content">
+                    <video autoplay controls muted loop width="230px" height="180px">
+                        <source src="images/adv-video.mp4" type="video/mp4"/>
+                        视频出错啦！
+                    </video>
+                </div>
+                <div class="media-foot">
+                    <a href="#"><img src="images/app.jpg" alt="APP"></a>
+                </div>
+            </div>
+        </div>
+        <div class="class-best clearfix">
+            <div class="class-head">
+                <p>精品课程推荐</p>
+            </div>
+            <ul class="course">
+                <li><a href=""><img src="images/java.jpg " alt="#"></a></li>
+                <li><span>Java工程师培训计划</span></li>
+                <li><a href="#"><h4>Java零基础入门</h4></a></li>
+                <li><p>就业班------3步/28课</p></li>
+                <li><b>¥588.00</b></li>
+            </ul>
+            <ul class="course">
+                <li><a href=""><img src="images/web.jpg " alt="#"></a></li>
+                <li><span>web前端工程师培训计划</span></li>
+                <li><a href="#"><h4>前端零基础入门</h4></a></li>
+                <li><p>就业班------5步/40课</p></li>
+                <li><b>¥699.00</b></li>
+            </ul>
+            <ul class="course">
+                <li><a href=""><img src="images/andro.jpg" alt="#"></a></li>
+                <li><span>Android工程师培训计划</span></li>
+                <li><a href="#"><h4>Android零基础入门</h4></a></li>
+                <li><p>就业班------5步/23课</p></li>
+                <li><b>¥568.00</b></li>
+            </ul>
+            <ul class="course">
+                <li><a href=""><img src="images/sql.jpg" alt="#"></a></li>
+                <li><span>MySql--8.0</span></li>
+                <li><a href="#"><h4>玩转MySql--8.0新特性</h4></a></li>
+                <li><p>入门------3步/28课</p></li>
+                <li><b>免费</b></li>
+            </ul>
+            <ul class="course">
+                <li><a href=""><img src="images/java1.jpg " alt="#"></a></li>
+                <li><span>Java</span></li>
+                <li><a href="#"><h4>深入浅出Java多线程</h4></a></li>
+                <li><p>入门------3步/20课</p></li>
+                <li><b>免费</b></li>
+            </ul>
+            <ul class="course">
+                <li><a href=""><img src="images/php.jpg" alt="#"></a></li>
+                <li><span>PHP工程师培训计划</span></li>
+                <li><a href="#"><h4>PHP小白零基础入门</h4></a></li>
+                <li><p>就业班------5步/26课</p></li>
+                <li><b>¥650.00</b></li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <img src="images/line.png" alt="#">
+            <ul>
+                <li><a href="#">关于</a></li>
+                <li><a href="#">品牌故事</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">加入我们</a></li>
+                <li><a href="#">版权声明</a></li>
+            </ul>
+            <img src="images/line.png" alt="#">
+            <ul>
+                <li><a href="#">课程</a></li>
+                <li><a href="#">PHP开发</a></li>
+                <li><a href="#">前端开发</a></li>
+                <li><a href="#">Java开发</a></li>
+                <li><a href="#">Android开发</a></li>
+            </ul>
+            <img src="images/line.png" alt="#">
+            <ul>
+                <li><a href="#">关注</a></li>
+                <li><a href="#">新浪微博</a></li>
+                <li><a href="#">腾讯微博</a></li>
+                <li><a href="#">企业微信</a></li>
+                <li><a href="#">QQ空间</a></li>
+            </ul>
+            <img src="images/line.png" alt="#">
+            <ul>
+                <li><a href="#">留言</a></li>
+                <li><a href="#">意见反馈</a></li>
+                <li><a href="#">问题留言</a></li>
+                <li><a href="#">媒体联络</a></li>
+                <li><a href="#">在线客服</a></li>
+            </ul>
+            <img src="images/line.png" alt="#">
+            <ul>
+                <li class="weixin">微信关注</li>
+                <li class="qrcode"><img src="images/qrcode.jpg" alt="#"></li>
+            </ul>
+            <img src="images/line.png" alt="#">
+        </div>
+
+    </footer>
+    <ul class="message" id="message">
+        <li class="advise"><a href="#">意见反馈</a></li>
+        <li class="help"><a href="#">帮助中心</a></li>
+        <li class="app-download"><a href="#">APP下载</a></li>
+        <li class="weChat"><a href="#">官方微信</a></li>
+        <li class="return-top"><a href="#mao">返回顶部</a></li>
+    </ul>
+</body>
+</html>
